@@ -1600,7 +1600,7 @@
         "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "Měl by tento tracker ovlivňovat vašeho avatara v režimu plochy?",
         "Settings.TrackerSettings.Trackers.TrackerID": "ID trackeru",
         "Settings.TrackerSettings.Trackers.TrackerID.Description": "Unikátní ID tohoto trackeru. Tato informace je považována za soukromou a není shodná s ID které bude zobrazeno ve světě pro ochranu před fingerprintingem.",
-        "Settings.TrackerSettings.Trackers.TrackerBattery": "Baterie trackeru",
+        "Settings.TrackerSettings.Trackers.TrackerBattery": "Stav baterie trackeru",
         "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "Toto je aktuální stav baterie tohoto trackeru. Některé trackery nemusí podporovat sledování aktuálního stavu baterie.",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging": "Nabíjí se",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Tato hodnota indikuje, zda se tracker zrovna nabíjí. Některé trackery nemusí tuto informaci hlásit.",
@@ -1850,7 +1850,7 @@
         "Settings.NotificationSettings.UserOnline": "Kontakt online",
         "Settings.NotificationSettings.UserOnline.Description": "Toto nastavení řídí, zda chcete dostávat notifikace když některých z vašich kontaktů přejde do stavu online.",
         "Settings.NotificationSettings.UserSociable": "Kontakt společenský",
-        "Settings.NotificationSettings.UserSociable.Description": "Pokud jakýkoliv z vašich kontaktů přejde do společenského stavu, obdržíte zřetelnou notifikaci se zvukem, abyste je mohli pozvat nebo po šťouchnout!\n\nPokud se vám tyto notifikace nelíbí, můžete je zakázat. Se společenským stavem bude pak z pohledu notifikací nakládáno jako se stavem online.",
+        "Settings.NotificationSettings.UserSociable.Description": "Pokud jakýkoliv z vašich kontaktů přejde do společenského stavu, obdržíte zřetelnou notifikaci se zvukem, abyste je mohli pozvat nebo pošťouchnout!\n\nPokud se vám tyto notifikace nelíbí, můžete je zakázat. Se společenským stavem bude pak z pohledu notifikací nakládáno jako se stavem online.",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "Kontakt online na nekompatibilní verzi klienta",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description": "Toto nastavení řídí, zda budete dostávat notifikace když některých z vašich kontaktů bude online při využívání verze klienta, která není kompatibilní s tou vaší (např. novější verze nebo pre-release verze).",
         "Settings.NotificationSettings.Message": "Zprávy",
@@ -2038,7 +2038,7 @@
 
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Rozmazání pohybu",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Má kamera používat efekt rozmazání pohybu?",
-        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Screen space odrazy",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Screen space odrazy (SSR)",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Má kamera vykreslovat screen space odrazy? To může zajistit lepší odrazy u lesklých povrchů, ale může také vést k artefaktům a zvýšeným nárokům na výpočetní výkon.",
 
         "Settings.InteractiveCameraAudioSettings": "Zvuk",

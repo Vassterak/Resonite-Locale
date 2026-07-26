@@ -404,6 +404,7 @@
         "Tools.CreateNewWorld": "Create New World",
         "Tools.Debug": "Debug",
         "Tools.StreamAudio": "Stream Audio",
+        "Tools.StreamVideo": "Stream Custom Video",
         "Tools.Setup2FA": "Setup 2FA",
 
         "Tools.StreamAudio.Dialog.Title": "Create Audio Stream",
@@ -445,6 +446,8 @@
         "Indicator.Storage.Usage": "{storage_used} of {storage_max}<br><size=61.803%>Storage Space Used</size>",
 
         "Indicator.LiveHiddenMessage": "(information hidden while live)",
+
+        "Device.SystemAudio": "<color=hero.cyan>🔊 System Audio</color>",
 
         "Login.InvalidCredentials": "Invalid credentials",
         "Login.InvalidCredentials.Description": "Double check your credentials and try again or press \"Lost Password?\"",
@@ -1982,7 +1985,7 @@
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Always Hide Nameplates",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Turn this on if you want nameplates to never show in your photos. This setting is independent of the current nameplate visibility and will always ensure that they are hidden in captured photos.",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Always Hide Gizmos",
-        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Turn this on if you want to hide any developer gizmos in your photos. This can help in cases where you want to take clean photos even in case someone is editing something. Inspectors and ProfoFlux will remain visible.",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Turn this on if you want to hide any developer gizmos in your photos. This can help in cases where you want to take clean photos even in case someone is editing something. Inspectors and ProtoFlux will remain visible.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
@@ -2631,6 +2634,15 @@
         "Desktop.LegacyInputMode.Off": "Legacy Input: Off",
         "Desktop.Brightness": "Brightness: {n,number,percent}",
         "Desktop.Opacity": "Opacity: {n,number,percent}",
+
+        "Desktop.Stream": "Share Screen",
+        "Desktop.Stream.Display": "Display {index}: {width}x{height}",
+        "Desktop.Stream.Title": "Configure Screen Share",
+        "Desktop.Stream.Audio": "Include desktop audio",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "Resolution:",
+        "Desktop.Stream.Bitrate": "Bitrate:",
+        "Desktop.Stream.Start": "Start Sharing",
 
         "VolumePlaneSlicer.Highlight": "Highlight",
         "VolumePlaneSlicer.Slicer": "Slice",

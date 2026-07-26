@@ -388,6 +388,7 @@
         "Tools.CreateNewWorld": "Vytvořit nový svět",
         "Tools.Debug": "Diagnostika",
         "Tools.StreamAudio": "Streamovat audio",
+        "Tools.StreamVideo": "Streamovat vlastní video",
         "Tools.Setup2FA": "Nastavit 2FA",
 
         "Tools.StreamAudio.Dialog.Title" : "Vytvořit audio stream",
@@ -429,6 +430,8 @@
         "Indicator.Storage.Usage": "{storage_used} z {storage_max}<br><size=61.803%>Využité místo v úložišti</size>",
 
         "Indicator.LiveHiddenMessage": "(informace jsou skryty během streamování)",
+
+        "Device.SystemAudio": "<color=hero.cyan>🔊 Systémový zvuk</color>",
 
         "Login.InvalidCredentials": "Nesprávné přihlašovací informace",
         "Login.InvalidCredentials.Description": "Překontrolujte si přihlašovací informace a zkuste to znovu nebo zmáčkněte \"Zapomenuté heslo\"",
@@ -1965,6 +1968,8 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Formát obrázku, do kterého budou pořízené fotografie uloženy. Pokud potřebujete, aby fotografie byly v konkrétním formátu, můžete pomocí tohoto nastavení vybrat, do jakého formátu budou uloženy.\n\nUpozorňujeme, že některé formáty mohou postrádat určité funkce (např. podpora průhlednosti), mohou se ukládat výrazně pomaleji, mít nižší kvalitu obrazu nebo jejich velikost může být mnohem větší.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Vždy schovávat jmenovky",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Tuto funkci zapněte, pokud chcete, aby se na vašich snímcích nikdy nezobrazovaly jmenovky uživatelů. Toto nastavení je nezávislé na aktuální viditelnosti jmenovek a vždy zajistí, že budou na pořízených fotografiích skryty.",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Vždy schovat gizmo",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Tuto možnost zapněte, pokud chcete na svých fotografiích skrýt jakékoli vývojářské prvky (např. gizmo). To se může hodit v případech, kdy chcete pořizovat čisté snímky, i když někdo právě něco upravuje. Inspektor okna a ProtoFlux zůstanou viditelné.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Zorné pole (FOV)",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Tuto funkci použijte k nastavení zorného pole (FOV) v režimu plochy. Vyšší hodnoty vám poskytnou širší záběr, avšak na úkor většího zkreslení po stranách pořízeného snímku.",
@@ -2512,6 +2517,15 @@
         "Desktop.LegacyInputMode.Off": "Legacy vstup: Vypnut",
         "Desktop.Brightness": "Jas: {n,number,percent}",
         "Desktop.Opacity": "Neprůhlednost: {n,number,percent}",
+
+        "Desktop.Stream": "Sdílet obrazovku",
+        "Desktop.Stream.Display": "Monitor {index}: {width}x{height}",
+        "Desktop.Stream.Title": "Nastavení sdílení obrazovky",
+        "Desktop.Stream.Audio": "Zahrnout zvuk z plochy",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "Rozlišení:",
+        "Desktop.Stream.Bitrate": "Bitrate:",
+        "Desktop.Stream.Start": "Začít sdílet",
 
         "VolumePlaneSlicer.Highlight": "Zvýraznit",
         "VolumePlaneSlicer.Slicer": "Říznout",

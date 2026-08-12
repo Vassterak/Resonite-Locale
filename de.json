@@ -384,7 +384,8 @@
         "Tools.CreateNewWorld": "Neue Welt",
         "Tools.Debug": "Debuggen",
         "Tools.StreamAudio": "Audio streamen",
-        "Tools.StreamVideo": "Benutzerdefiniertes Video streamen",
+        "Tools.StreamVideo": "Benutzerdefiniertes Video streamen<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Benutzerdefinierten Videostream beenden",
         "Tools.Setup2FA": "2FA einrichten",
 
         "Tools.StreamAudio.Dialog.Title": "Audio-Stream erstellen",
@@ -1774,6 +1775,8 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Wenn dies aktiviert ist, werden sofern möglich Steam Networking Sockets für Verbindungen verwendet. Dies kann Ihnen helfen, wenn das LNL-Protokoll erhebliche Paketverzögerungen verursacht. Da diesem Protokoll allerdings einige Funktionalitäten fehlen, kann es zu mehr Stabilitätsproblemen führen, daher empfehlen wir es nur zu aktivieren, wenn Sie Probleme bemerken.",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "Bevorzuge TCP",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Wenn dies aktiviert ist, werden Verbindungen über TCP gegenüber allen anderen Protokollen bevorzugt. Dies betrifft vor allem Verbindungen im LAN, da TCP standardmäßig nicht für Verbindungen über das Internet verwendet wird.\n\nTCP kann in lokalen LAN-Netzwerken eine bessere Leistung bringen und auch in bestimmten Netzwerken funktionieren, in denen UDP-basierte Protokolle nicht funktionieren.\n\nEs kann jedoch unter einer \"Head-of-Line\" Blockierung leiden, wodurch Stimmen und Posen erheblich verzögert werden können.",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC": "Bevorzuge QUIC (experimentell)",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC.Description": "Wenn dies aktiviert ist, werden Verbindungen über QUIC gegenüber anderen Protokollen (ausgenommen TCP) bevorzugt.\n\nDie Unterstützung dieses Protokolls ist experimentell und noch unvollständig, kann aber eine bessere Leistung als das standardmäßige verwendete LNL-Protokoll erreichen.\n\nDer Server muss explizit so konfiguriert sein, dass er über QUIC erreichbar ist.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Fenstergröße",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dies stellt die Fenstergröße für das LNL-Protokoll für Echtzeit-Netzwerke ein. Eine Änderung wirkt sich sofort auf alle Ihre Sitzungen aus.\nSollten Sie Paketstaus feststellen, können Sie diesen Wert erhöhen, wodurch sich der Durchsatz der Verbindung verbessern kann. Allerdings können größere Werte die Verbindung auch instabiler machen.\n\n<color=hero.yellow>Standardwert:</color> 64\n\n<color=hero.red>WICHTIG:</color> Beachten Sie, dass es sich bei dieser Einstellung um eine Behelfslösung handelt, die auch der Diagnose dient. Dieser Wert wird in Zukunft automatisch angepasst.",
 
@@ -1808,7 +1811,13 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingabe-Verknüpfungssystem. Dies ist hauptsächlich für Entwickler nützlich.",
         "Settings.DebugSettings.ConvertParticleSystems": "Konvertiere Partikelsysteme zu PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Wenn diese Option aktiv ist, wird für alle <b>neu</b> geladenen Gegenstände und Welten das alte Partikelsystem in das neue eigene System (PhotonDust) konvertiert.<br><br><color=red>Dies ist nur für Testzwecke vorgesehen!</color> Wenn Sie nicht an den Tests teilnehmen, raten wir davon ab, diese Option zu aktivieren, da IHRE INHALTE BESCHÄDIGT WERDEN KÖNNEN.<br><br>Bitte informieren Sie sich in unserem GitHub/Discord, wenn Sie beim Testen helfen möchten.",
-
+        "Settings.DebugSettings.ShowMediaMTXWindow": "MediaMTX-Fenster anzeigen",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "Beim Streamen eines Videos ist das Fenster der MediaMTX-Instanz sichtbar. Dies ist hilfreich, um dessen Ausgabe sehen zu können.<br><br><color=hero.red>WARNUNG:</color> Wenn Sie dieses Fenster manuell schliessen wird der Stream zusammenbrechen.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Nutze Proton für MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "Auf Linux Systemen startet dies die Windows-Version von MediaMTX unter Proton, anstatt die native Linux-Version von MediaMTX zu verwenden.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Software-Videoencoder erzwingen",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Nutzt den Software-Videoencoder anstatt des Hardware-Videoencoders zum Streamen des Desktops.",
+        
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wenn dies aktiviert ist, können Sie Tools und andere ausrüstbare Objekte ausrüsten, indem Sie ihren Griff zweimal schnell nacheinander drücken. Diese Einstellung wird wahrscheinlich irgendwann entfernt werden.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechsler",
@@ -2617,7 +2626,8 @@
         "Desktop.Brightness": "Helligkeit: {n,number,percent}",
         "Desktop.Opacity": "Transparenz: {n,number,percent}",
 
-        "Desktop.Stream": "Bildschirm teilen",
+        "Desktop.Stream": "Bildschirm teilen<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Beende Teilen des Bildschirms",        
         "Desktop.Stream.Display": "Bildschirm {index}: {width}x{height}",
         "Desktop.Stream.Title": "Bildschirmfreigabe konfigurieren",
         "Desktop.Stream.Audio": "Desktop-Audio mit einbeziehen",

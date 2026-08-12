@@ -388,7 +388,8 @@
         "Tools.CreateNewWorld": "Vytvořit nový svět",
         "Tools.Debug": "Diagnostika",
         "Tools.StreamAudio": "Streamovat audio",
-        "Tools.StreamVideo": "Streamovat vlastní video",
+        "Tools.StreamVideo": "Streamovat vlastní video<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Zastavit stream vlastního videa",
         "Tools.Setup2FA": "Nastavit 2FA",
 
         "Tools.StreamAudio.Dialog.Title" : "Vytvořit audio stream",
@@ -1814,6 +1815,12 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "Když je tato možnost povolena, budou zobrazovány ladící informace pro systém přiřazení vstupů. Toto je užitečné hlavně pro vývojáře.",
         "Settings.DebugSettings.ConvertParticleSystems": "Převést částicové systémy na PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Povolení této možnosti aktivuje konverzi z původního částicového systému na nový vlastní (PhotonDust) pro veškeré <b>nově</b> načtené předměty a světy.<br><br><color=red>Tato možnost je určena jen pro účely testování!</color> Pokud se neúčastníte testování, nedoporučujeme tuto možnost zapínat. POKUD TAK UČINÍTE, MŮŽE DOJÍT K POŠKOZENÍ VAŠEHO OBSAHU.<br><br>Podívejte se prosím na náš GitHub/Discord pokud byste chtěli pomoci s testováním.",
+        "Settings.DebugSettings.ShowMediaMTXWindow": "Zobrazit okno MediaMTX",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "Při streamování videa se zobrazí okno instance MediaMTX. To může být užitečné pro sledování streamováného výstupu.<br><br><color=hero.red>VAROVÁNÍ:</color> Pokud okno ručně zavřete, dojde k narušení funkčnosti streamování.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Použít Proton pro MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "V Linux systémech se spustí MediaMTX skrze Proton (překladová vrstva) namísto nativní linux verze.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Vynutit softwarové enkódování videa",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "K streamování obrazovky se použijte softwarový video enkodér namísto hardwarového enkodéru.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Nasadit předměty dvojím stiskem gripu",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Když je možnost povolena, můžete si nasazovat nástroje a gadgety rychlým dvojitým stiskem gripu. Tato možnost bude nejspíše časem odstraněna.",
@@ -2520,7 +2527,8 @@
         "Desktop.Brightness": "Jas: {n,number,percent}",
         "Desktop.Opacity": "Neprůhlednost: {n,number,percent}",
 
-        "Desktop.Stream": "Sdílet obrazovku",
+        "Desktop.Stream": "Sdílet obrazovku<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Zastavit sdílení obrazovky",
         "Desktop.Stream.Display": "Monitor {index}: {width}x{height}",
         "Desktop.Stream.Title": "Nastavení sdílení obrazovky",
         "Desktop.Stream.Audio": "Zahrnout zvuk z plochy",

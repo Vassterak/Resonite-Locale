@@ -1,17 +1,17 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Official Discord
+  - name: Oficiální Discord
     url: https://discord.gg/resonite
-    about: The place to discuss all things Resonite
-  - name: Resonite Moderation
+    about: Místo, kde se diskutuje o všem, co se týká Resonite.
+  - name: Resonite moderace
     url: https://moderation.resonite.com
-    about: Please report any guidelines breaches here
-  - name: Resonite Support
+    about: Jakékoli porušení pokynů prosím nahlaste zde.
+  - name: Resonite podpora
     url: https://support.resonite.com
-    about: Please report any account issues here
-  - name: Security
+    about: Jakékoli problémy s účtem prosím nahlaste zde.
+  - name: Bezpečnost
     url: https://support.resonite.com
-    about: Please report any security issues here
-  - name: Bugs and Feature Requests
+    about: Jakékoli bezpečnostní problémy prosím nahlaste zde.
+  - name: Chyby a požadavky na nové funkce
     url: https://github.com/Yellow-Dog-Man/Resonite-Issues
-    about: Submit Resonite Bugs and Feature requests here.
+    about: Chyby a návrhy na nové funkce zasílejte sem.

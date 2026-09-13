@@ -1764,10 +1764,10 @@
         "Settings.AudioPerformanceSettings": "Audio Performance Settings",
         "Settings.AudioPerformanceSettings.MaxVoices": "Maximum number of active sounds",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "This controls how many sounds can be playing concurrently. Increasing this will allow you to hear more sounds at once at the cost of CPU usage.<br><br>If you set this too high, you might hear audio crackling.",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Simulation Frame Size",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "This controls how much audio data is computed in one go when rendering audio.\n\nIncreasing the value can improve performance in some ways, but will come at the cost of less frequent audio events and increased latency.<br><br>Generally we do not recommend changing this value and keeping the default 1024.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Playback Buffer Size",
-        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "This controls the size of the buffer for audio playback.\nHigher values will have more audio latency, but are more resilient to crackling and pops.<br><br>By lowering this value you can decrease the audio latency, but the system will be more susceptible to crackling and drops.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "This controls the size of the buffer for audio playback.<br><br>The buffer size is scaled based on multiples of your computer's audio buffer size - this buffer size is often referred to as your computer audio's \"quantum\".<br><br>Higher values will have more audio latency, but are more resilient to crackling and pops.<br><br>By lowering this value you can decrease the audio latency, but the system will be more susceptible to crackling and drops.<br><br>",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Simulation frames per system buffer",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "This controls how many times the simulator will run during a period of your computer's audio buffer size - AKA your computer audio's \"quantum\".<br><br><color=hero.orange><b><i>Important</b></color>:</i> This is <i>not</i> related to the playback buffer size. It is related to the quantum of your computer audio.<br><br>For example: If your computer sports a quantum of 960 samples, and the simulator is simulating at four frames per that period, then the simulator will render 240 samples of audio at a time.<br><br>A setting of \"Four\" should be adequate for most systems.",
 
         "Settings.VoiceSettings": "Voice Settings",
         "Settings.VoiceSettings.MutePersistence": "Mute Persistence",
@@ -1966,6 +1966,8 @@
         "Settings.DesktopViewSettings.Brightness.Description": "The brightness of the desktop view.",
         "Settings.DesktopViewSettings.Opacity": "Opacity",
         "Settings.DesktopViewSettings.Opacity.Description": "Lower the value to make the desktop view semi-transparent, making it easier to see what's behind it in the world.",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR": "Hide menu button in VR",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Will hide the hamburger menu button on desktop tab while in VR mode. You can open the menu by pointing at the screen and pressing context menu.",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo gesture",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "When enabled, you can quickly take pictures in world by posing your fingers to make a picture frame and then curling one of your index fingers.",
@@ -2089,6 +2091,8 @@
         "Settings.VideoStreamingServicesSettings": "Video Streaming Services",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Use Cookies From Browser",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "If YouTube or another service's videos are not loading for you, select the browser you typically use to load cookies from when fetching those videos. This increases the chances of videos loading successfully.",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution": "Preferred Resolution",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution.Description": "What resolution should streaming services videos be ideally loaded at, unless overriden on the specific player.<br><br>Increasing this will increase video quality, but also bandwidth and CPU costs.<br><br>If you run into issues with video stuttering, you can try lowering this value.",
 
         "Settings.PostProcessingSettings": "Post Processing",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Motion Blur Intensity",
